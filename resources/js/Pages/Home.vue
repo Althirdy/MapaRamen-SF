@@ -2,6 +2,6 @@
 </script>
 <template>
     <header>
-        <p>Testing of Branch</p>
+        <p>Testing of Branc</p>
     </header>
 </template>
