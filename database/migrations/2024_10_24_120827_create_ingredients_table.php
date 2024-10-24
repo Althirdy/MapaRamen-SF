@@ -12,9 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('ingredients', function (Blueprint $table) {
-            $table->id('IngredientID');
-            $table->string('IngredientName');
-            $table->string('IngredientName');
+            $table->id('ingredient_id');
+            $table->string('ingredient_name');
             $table->string('UnitOfMeasurement');
             $table->date('Expiration');
             $table->foreignId('mealID')->constrained('meals')->cascadeOnDelete();

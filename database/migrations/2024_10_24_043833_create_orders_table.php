@@ -12,12 +12,9 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('orders', function (Blueprint $table) {
-            $table->id("orderID");
-            $table->unsignedBigInteger('CashierID');
-            $table->foreign('CashierID')->references('CashierID')->on('cashiers')->onDelete('cascade');
-            $table->date('OrderDate'); 
-            $table->unsignedBigInteger('customerID');
-            $table->foreign('customerID')->references('customerID')->on('customers')->onDelete('cascade');
+            $table->id("order_id");
+            $table->foreignId('cashier_id')->constrained('cashiers')->cascadeOnDelete();
+            $table->date('order_date'); 
             $table->float('TotalAmount')->nullable()->default(0.00);
             $table->bigInteger('ReferenceNumber')->unique()->default(12);
             $table->timestamps();

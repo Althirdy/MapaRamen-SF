@@ -12,10 +12,9 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('meals', function (Blueprint $table) {
-            $table->id('mealID');
-            $table->float('mealPrice');
-            $table->unsignedBigInteger('mealCategoryID');
-            $table->foreign('mealCategoryID')->references('mealCategoryID')->on('categories')->onDelete('cascade');
+            $table->id('meal_id');
+            $table->float('meal_price');
+            $table->foreignId('category_id')->constrained('catogories')->cascadeOnDelete();
             $table->timestamps();
         });
     }

@@ -12,14 +12,13 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('inventory', function (Blueprint $table) {
-            $table->id('InventoryID');
-            $table->foreignId('ManagerID')->constrained('branch_manager')->cascadeOnDelete();
-            $table->foreignId('IngredientID')->constrained('ingredients')->cascadeOnDelete();
+            $table->id('inventory_id');
+            $table->foreignId('manager_id')->constrained('branch_manager')->cascadeOnDelete();
+            $table->foreignId('ingredient_id')->constrained('ingredients')->cascadeOnDelete();
             $table->integer('IngredientQuantity');
             $table->integer('IngredientMaxQuantity');
             $table->integer('IngredientMinQuantity');
             $table->date('RestockDate');
-            $table->id('SupplierID');
             $table->timestamps();
         });
     }
