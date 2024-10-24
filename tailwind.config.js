@@ -15,7 +15,7 @@ export default {
                 primary_blue: "#2D6FF2",
                 primary_red: "#EC1616",
                 light_text: "#F0F3FA",
-                darK_text: "#0A0A0A",
+                dark_text: "#0A0A0A",
                 secondary_dark_text: "#56595F",
                 secondary_light_text: "#BBBCBB",
                 tertiary_black_text: "#2D2E30",
