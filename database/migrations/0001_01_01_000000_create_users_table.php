@@ -11,11 +11,23 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->id();
+        Schema::create('customers', function (Blueprint $table) {
+            $table->id('customerID');
+            $table->string('CustomerName');
+        });
+        Schema::create('branch-manager', function (Blueprint $table) {
+            $table->id('ManagerID');
             $table->string('name');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
+            $table->string('password');
+            $table->rememberToken();
+            $table->timestamps();
+        });
+        Schema::create('cashiers', function (Blueprint $table) {
+            $table->id('CashierID');
+            $table->string('CashierName');
+            $table->foreign('ManagerID')->references('ManagerID')->on('branch-manager')->onDelete('cascade');
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
