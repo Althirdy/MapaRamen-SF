@@ -15,6 +15,9 @@ return new class extends Migration
             $table->id('IngredientID');
             $table->string('IngredientName');
             $table->string('IngredientName');
+            $table->string('UnitOfMeasurement');
+            $table->date('Expiration');
+            $table->foreignId('mealID')->constrained('meals')->cascadeOnDelete();
             $table->timestamps();
         });
     }

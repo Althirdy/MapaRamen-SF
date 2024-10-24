@@ -14,10 +14,10 @@ return new class extends Migration
         Schema::create('inventory', function (Blueprint $table) {
             $table->id('InventoryID');
             $table->foreignId('ManagerID')->constrained('branch_manager')->cascadeOnDelete();
-            $table->id('IngredientID');
-            $table->id('IngredientQuantity');
-            $table->id('IngredientMaxQuantity');
-            $table->id('IngredientMinQuantity');
+            $table->foreignId('IngredientID')->constrained('ingredients')->cascadeOnDelete();
+            $table->integer('IngredientQuantity');
+            $table->integer('IngredientMaxQuantity');
+            $table->integer('IngredientMinQuantity');
             $table->date('RestockDate');
             $table->id('SupplierID');
             $table->timestamps();
