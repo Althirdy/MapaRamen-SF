@@ -13,8 +13,10 @@ return new class extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id("orderID");
+            $table->unsignedBigInteger('CashierID');
             $table->foreign('CashierID')->references('CashierID')->on('cashiers')->onDelete('cascade');
             $table->date('OrderDate'); 
+            $table->unsignedBigInteger('customerID');
             $table->foreign('customerID')->references('customerID')->on('customers')->onDelete('cascade');
             $table->float('TotalAmount')->nullable()->default(0.00);
             $table->bigInteger('ReferenceNumber')->unique()->default(12);
