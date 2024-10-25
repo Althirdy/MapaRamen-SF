@@ -11,12 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('ingredients', function (Blueprint $table) {
-            $table->id('ingredient_id');
-            $table->string('ingredient_name');
-            $table->string('UnitOfMeasurement');
-            $table->date('Expiration');
-            $table->foreignId('mealID')->constrained('meals')->cascadeOnDelete();
+        Schema::create('payment_mode', function (Blueprint $table) {
+            $table->id();
             $table->timestamps();
         });
     }
@@ -26,6 +22,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('ingredients');
+        Schema::dropIfExists('payment_mode');
     }
 };

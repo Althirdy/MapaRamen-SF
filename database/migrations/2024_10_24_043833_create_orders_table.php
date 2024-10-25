@@ -15,8 +15,9 @@ return new class extends Migration
             $table->id("order_id");
             $table->foreignId('cashier_id')->constrained('cashiers')->cascadeOnDelete();
             $table->date('order_date'); 
-            $table->float('TotalAmount')->nullable()->default(0.00);
-            $table->bigInteger('ReferenceNumber')->unique()->default(12);
+            $table->integer('payment_mode');
+            $table->float('TotalAmount')->default(0.00);
+            $table->bigInteger('ReferenceNumber')->nullable()->unique()->default(12);
             $table->timestamps();
         });
     }
