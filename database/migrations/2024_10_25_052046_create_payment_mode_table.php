@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('payment_mode', function (Blueprint $table) {
             $table->id();
+            $table->string('payment_name');
             $table->timestamps();
         });
     }

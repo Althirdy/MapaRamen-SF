@@ -12,8 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('void', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->id('void_id');
+            $table->foreignId('cashier_id')->constrained('cashiers')->cascadeOnDelete();
+            $table->date('void_date'); 
+            $table->integer('payment_mode');
+            $table->float('TotalAmount')->default(0.00);
+            $table->timestamps('created_at');
         });
     }
 
