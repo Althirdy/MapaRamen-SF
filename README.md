@@ -9,4 +9,4 @@
 8. Run `npm run dev`
 
 
-RGP Inventory System a client based project for System Fundamentals Course
+Ramen Restaurant Ordering and Inventory Management System. A client based project for System Fundamentals Course
