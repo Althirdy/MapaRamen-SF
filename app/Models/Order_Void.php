@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Order_Void extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'void_date',
+        'payment_mode',
+        'TotalAmount',
+        'created_at',
+    ];
 }
