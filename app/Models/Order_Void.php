@@ -13,6 +13,5 @@ class Order_Void extends Model
         'void_date',
         'payment_mode',
         'TotalAmount',
-        'created_at',
     ];
 }
