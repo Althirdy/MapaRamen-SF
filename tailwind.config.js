@@ -9,7 +9,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                Montserrat: ["Montserrat", "sans-serif"],
+                Montserrat: ["Inter", "sans-serif"],
             },
             colors: {
                 primary_blue: "#2D6FF2",

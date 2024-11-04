@@ -3,7 +3,7 @@
         <div>
             <label
                 :for="label"
-                class="block text-sm font-medium text-dark_text"
+                class="block text-md font-medium text-secondary_dark_text"
             >
                 {{ label }}
             </label>
@@ -14,7 +14,7 @@
                     :name="label"
                     :placeholder="placeholder"
                     v-model="model"
-                    class="block w-full text-dark_text rounded-md pr-3 pl-8 text-sm border-gray-400 outline-0 focus:ring-1 focus:ring-inset focus:ring-secondary_light_text focus:border-secondary_dark_text placeholder:text-secondary_light_text"
+                    class="block w-full text-dark_text font-medium rounded-md pr-3 pl-3 text-sm border-gray-400 outline-0 focus:ring-1 focus:ring-inset focus:ring-secondary_light_text focus:border-secondary_dark_text placeholder:text-secondary_light_text"
                 />
             </div>
         </div>
