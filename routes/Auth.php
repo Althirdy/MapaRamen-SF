@@ -2,4 +2,4 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::inertia('/', 'Auth/Login')->name('login');
+Route::inertia('/', 'Auth/Login')->middleware('guest')->name('login');
