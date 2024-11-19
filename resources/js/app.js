@@ -6,6 +6,7 @@ import { createInertiaApp, Head, Link } from "@inertiajs/vue3";
 import { ZiggyVue } from "../../vendor/tightenco/ziggy";
 import InputField from "../js/Components/InputField.vue";
 
+
 createInertiaApp({
     title: (title) => `MapaRamen ${title}`,
     resolve: (name) => {

@@ -3,7 +3,7 @@
         <div>
             <label
                 :for="label"
-                class="block text-md font-medium text-secondary_dark_text"
+                class="block text-sm font-medium text-tertiary_dark"
             >
                 {{ label }}
             </label>
