@@ -1,31 +1,27 @@
 <script setup>
-import { useForm } from "@inertiajs/vue3";
-import InputField from "../../Components/InputField.vue";
+import { ref } from "vue";
+import { router, useForm } from "@inertiajs/vue3";
 import Button from "../../Components/Button.vue";
 import DropDown from "../../Components/DropDown.vue";
-import { ref } from "vue";
+import InputError from "../../Components/InputError.vue";
 
-// DropDown Option
+const Role = ["Manager", "Kitchen", "Cashier"];
 
-const Role = ["Manager","Kitchen",'Cashier']
-
-
-const selectedOption = ref(null);
-const handleSelect = (option) => {
-  selectedOption.value = option;
-};
 
 const form = useForm({
     username: "",
     password: "",
+    role: null,
 });
 
-const submit = () => {
-    // form.post(route("login"), {
-    //     onFinish: () => form.reset("password"),
-    // });
-    console.log(selectedOption.value)
-    console.log(form);
+const handleSelect = (option) => {
+    form.role = option + 1;
+};
+
+const submit = async () => {
+    form.post(route("login"),{
+        onError: () => form.reset('password')
+    });
 };
 </script>
 <template>
@@ -43,29 +39,31 @@ const submit = () => {
                     <h1 class="font-bold text-[2.5rem] text-primary_dark">
                         Maparamen
                     </h1>
-                    <p
-                        class="font-medium text-secondary_dark text-[1.1rem]"
-                    >
+                    <p class="font-medium text-secondary_dark text-[1.1rem]">
                         Caloocan North [Saranay Branch]
                     </p>
                 </div>
             </header>
 
             <form @submit.prevent="submit" class="space-y-4 flex flex-col">
+                <InputError :error="form.errors.error" />
                 <div class="flex items-center gap-2">
                     <p class="text-secondary_dark text-sm">Sign In As:</p>
-                    <DropDown 
-                        :options = "Role"
-                        @select="handleSelect"
-                    />
+                    <DropDown :options="Role" @change="handleSelect" />
                 </div>
-                <InputField label="Username" v-model="form.username" />
-                <InputField
-                    label="Password"
-                    type="password"
-                    v-model="form.password"
-                />
-                <Button label="Login" class="bg-primary_blue hover:bg-secondary_blue" />
+                <div>
+                    <InputField label="Username" v-model="form.username" />
+                    <InputError :error="form.errors.username" />
+                </div>
+                <div>
+                    <InputField
+                        label="Password"
+                        type="password"
+                        v-model="form.password"
+                    />
+                    <InputError :error="form.errors.password" />
+                </div>
+                <Button label="Login" :disabled="form.processing" />
             </form>
         </div>
     </div>

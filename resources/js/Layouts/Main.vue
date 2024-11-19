@@ -1,9 +1,21 @@
-<script setup></script>
+<script setup>
+import Navbar from "../Components/Navbar.vue";
+import NavLink from "../Components/NavLink.vue";
+</script>
 
 <template>
-    <div class="max-w-screen-xl mx-auto">
-        <main class="p-6 mx-auto max-w-screen-lg">
-            Ready for Development...
+    <div class="flex flex-col h-screen">
+        <Navbar :username="'Manager Che'">
+            <template #navlinks>
+                <NavLink routeName="manager" componentName="Manager/Home">
+                    Dashboard
+                </NavLink>
+                <NavLink routeName="pos" componentName="Manager/POS">
+                    POS
+                </NavLink>
+            </template>
+        </Navbar>
+        <main class="flex-1 p-4">
             <slot />
         </main>
     </div>

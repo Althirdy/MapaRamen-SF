@@ -1,9 +1,9 @@
 <template>
-    <div class="relative" @click="toggleDropdown">
+    <div class="relative" @click.prevent="toggleDropdown">
         <button
-            class="w-full px-3 py-1 border border-gray-300 rounded-md text-left text-secondary_black flex gap-4 items-center focus:outline-none focus:ring-2 focus:ring-blue-500"
+            class="w-full px-3 py-1 border border-gray-300 rounded-md text-left text-secondary_black flex gap-4 items-center focus:outline-none focus:ring-2 focus:ring-tertiary_blue"
         >
-            <span>{{ selected }}</span>
+            <span>{{ selectedLabel }}</span>
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -24,8 +24,8 @@
             <li
                 v-for="(option, index) in options"
                 :key="index"
-                @click.stop="selectOption(option)"
-                class="px-4 py-2 hover:bg-disabled cursor-pointer text-secondary_dark"
+                @click.stop="selectOption(option, index)"
+                class="px-4 py-2 hover:bg-gray-200 cursor-pointer text-secondary_dark"
             >
                 {{ option }}
             </li>
@@ -43,26 +43,30 @@ const props = defineProps({
     },
 });
 
-const emit = defineEmits(["select"]);
+// Update emitted event to "change" instead of "select"
+const emit = defineEmits(["change"]);
 
 const isOpen = ref(false);
-const selected = ref(null);
+const selectedIndex = ref(null);
+const selectedLabel = ref(null);
 
 const toggleDropdown = () => {
     isOpen.value = !isOpen.value;
 };
 
-const selectOption = (option) => {
-    selected.value = option;
+const selectOption = (option, index) => {
+    selectedIndex.value = index;
+    selectedLabel.value = option;
     isOpen.value = false;
-    emit("select", option);
+    emit("change", index); 
 };
 
 // Set the first option as the default selected value
 onMounted(() => {
     if (props.options && props.options.length > 0) {
-        selected.value = props.options[0];
-        emit("select", selected.value);
+        selectedIndex.value = 0;
+        selectedLabel.value = props.options[0];
+        emit("change", selectedIndex.value); // Emit index of the first option
     }
 });
 </script>
