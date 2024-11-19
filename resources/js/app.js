@@ -5,6 +5,7 @@ import { createApp, h } from "vue";
 import { createInertiaApp, Head, Link } from "@inertiajs/vue3";
 import { ZiggyVue } from "../../vendor/tightenco/ziggy";
 import InputField from "../js/Components/InputField.vue";
+import SearchInput from "./Components/SearchInput.vue";
 
 
 createInertiaApp({
@@ -22,6 +23,7 @@ createInertiaApp({
             .component("Head", Head)
             .component("Link", Link)
             .component("InputField", InputField)
+            .component("SearchInput",SearchInput)
             .mount(el);
     },
     progress: {
