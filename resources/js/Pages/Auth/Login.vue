@@ -27,7 +27,7 @@ const submit = async () => {
 <template>
     <div class="px-4 border">
         <div
-            class="border-tertiary_dark border flex flex-col gap-8 mt-32 rounded-md bg-white p-8 max-w-[500px] mx-auto"
+            class="border-tertiary_dark border flex flex-col gap-8 mt-[5%] rounded-md bg-white p-8 max-w-[500px] mx-auto"
         >
             <header>
                 <img
