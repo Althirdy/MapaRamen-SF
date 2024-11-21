@@ -1,12 +1,12 @@
 <template lang="">
-    <div>
+    <Main>
         
-    </div>
+    </Main>
 </template>
-<script>
-export default {
-    
-}
+<script setup>
+import Main from '../../Layouts/Main.vue';
+
+
 </script>
 <style lang="">
     

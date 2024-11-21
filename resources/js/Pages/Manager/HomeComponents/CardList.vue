@@ -15,7 +15,7 @@
                 </div>
             </template>
         </StatisticCard>
-        <StatisticCard sales="5,000" label="Daily Sales">
+        <StatisticCard sales="5,000" label="Weekly Sales">
             <template #header>
                 <div class="flex gap-2 items-center">
                     <VueDatePicker
@@ -33,7 +33,7 @@
             </template>
         </StatisticCard>
 
-        <StatisticCard sales="5,000" label="Daily Sales">
+        <StatisticCard sales="5,000" label="Monthly Sales">
             <template #header>
                 <VueDatePicker
                     disabled
