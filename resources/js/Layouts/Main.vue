@@ -13,6 +13,9 @@ import NavLink from "../Components/NavLink.vue";
                 <NavLink routeName="pos" componentName="Manager/POS">
                     POS
                 </NavLink>
+                <NavLink routeName="ingredients" componentName="Manager/Inventory/Ingredients"> 
+                    Inventory
+                    </NavLink>
             </template>
         </Navbar>
         <main class="flex-1 p-4">
