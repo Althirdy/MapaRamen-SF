@@ -54,7 +54,7 @@
                 <!-- Notification Dropdown -->
                 <div
                     v-if="showNotifications"
-                    class="absolute right-0 p-4 bg-white shadow-lg min-h-[30vh] top-0 mt-10 rounded-md min-w-[17vw] border z-50"
+                    class="absolute right-0 p-4 bg-white shadow-lg min-h-[30vh] top-0 mt-10 rounded-md w-[24vw] border custom-scrollbar z-50"
                 >
                     <div class="space-y-[-.2rem]">
                         <h3
@@ -192,3 +192,19 @@ const toggleNotifications = () => {
     showNotifications.value = !showNotifications.value;
 };
 </script>
+
+<style scoped>
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #9ca3af; /* Gray-400 */
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #6b7280; /* Gray-500 */
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #e5e7eb; /* Gray-200 */
+}
+</style>
