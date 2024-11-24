@@ -6,15 +6,9 @@ import IngredientsTable from "../InventoryComponents/IngredientsTable.vue";
 import { ref } from "vue";
 
 const categories = ["Dry", "Wet", "Sauces"];
-const sortBy = ["Alphabetical", "Status", "Expiration"];
-let selectedCategory = ref("");
-let selectedSort = ref(sortBy[0]);
-
-function updateCategory(index) {
-    selectedCategory.value = categories[index];
-    console.log(selectedCategory.value);
-    console.log("Hi")
-}
+const sortBy = ["Alphabetical", "Quantity", "Expiration"];
+let selectedCategory = ref(0);
+let selectedSort = ref(0);
 
 defineProps({
     ingredients: Array
@@ -28,7 +22,7 @@ defineProps({
                 <SearchSort :categories="categories" :sortBy="sortBy" @update:category="selectedCategory = $event"
                 @update:sort="selectedSort = $event"/>
                 <Suspense>
-                    <IngredientsTable :category="selectedCategory" :ingredients="ingredients"/>
+                    <IngredientsTable :category="selectedCategory" :sortBy="selectedSort" :ingredients="ingredients"/>
                 </Suspense>
             </div>
         </div>

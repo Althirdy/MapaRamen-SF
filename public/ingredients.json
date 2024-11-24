@@ -1,17 +1,27 @@
 {
     "dry": [{
-        "id": 24001,
-        "name": "Aonori",
+        "id": 24032,
+        "name": "Sesami Seeds",
         "quantity": 100,
         "measurement": "(g)grams",
         "status": "Critical",
         "manufactured": "11/25/2024",
         "expiration": "11/25/2024",
         "delivery": "11/25/2024"
+        
     }, {
         "id": 24003,
         "name": "Baran",
         "quantity": 40,
+        "measurement": "(g)grams",
+        "status": "Critical",
+        "manufactured": "11/25/2024",
+        "expiration": "11/25/2024",
+        "delivery": "11/25/2024"
+    },{
+        "id": 24001,
+        "name": "Aonori",
+        "quantity": 100,
         "measurement": "(g)grams",
         "status": "Critical",
         "manufactured": "11/25/2024",

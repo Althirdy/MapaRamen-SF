@@ -1,70 +1,82 @@
 <script setup>
-import Ingredients from '../Inventory/Ingredients.vue';
 
-const formatDate = (dateString) => {
-    if (!dateString) return '';
-    const [year, month, day] = dateString.split('-');
-    return `${month}/${day}/${year}`;
-}
+import { ref } from 'vue';
+
 let ingredients = await fetchData();
-async function fetchData(){ 
+let Dry = ingredients.dry;
+let Wet = ingredients.wet;
+let Sauces = ingredients.sauces;
+
+let sortIngredients = ref();
+async function fetchData(){
     const response = await fetch('/ingredients.json');
     const data = await response.json();
     return data;
 }
 
-defineProps({
+const props = defineProps({
     category: Number,
-    sortBy: String,
+    sortBy: Number,
 })
 </script> 
 <template>
     <div class="overflow-x-auto">
-        <table class="w-full min-w-[1000px]">
+        <table class="w-full min-w-[1000px] text-left">
             <tr class="flex p-4 items-center">
-                <th class="flex-1 min-w-[100px] text-left">Ingredients ID</th>
-                <th class="flex-[2] min-w-[150px] text-left">Ingredients</th>
-                <th class="flex-1 min-w-[100px] text-left">Quantity</th>
-                <th class="flex-1 min-w-[120px] text-left">Measurement</th>
-                <th class="flex-1 min-w-[100px] text-left">Status</th>
-                <th class="flex-1 min-w-[120px] leading-none text-left">Manufactured <br> <span class="text-xs">(mm-dd-yyyy)</span></th>
-                <th class="flex-1 min-w-[120px] leading-none text-left">Expiration <br> <span class="text-xs">(mm-dd-yyyy)</span></th>
-                <th class="flex-1 min-w-[120px] leading-none text-left">Delivery <br> <span class="text-xs">(mm-dd-yyyy)</span></th>
+                <th class="flex-1 w1">Ingredients ID</th>
+                <th class="flex-[2] w2">Ingredients</th>
+                <th class="flex-1 w1">Quantity</th>
+                <th class="flex-1 w3">Measurement</th>
+                <th class="flex-1 w1">Status</th>
+                <th class="flex-1 w3 leading-none ">Manufactured <br> <span class="text-xs">(mm-dd-yyyy)</span></th>
+                <th class="flex-1 w3 leading-none ">Expiration <br> <span class="text-xs">(mm-dd-yyyy)</span></th>
+                <th class="flex-1 w3 leading-none ">Delivery <br> <span class="text-xs">(mm-dd-yyyy)</span></th>
             </tr>
-            <tr v-if='category == 0' v-for="(data, index) in ingredients.dry" :class="{'bg-[#F7F6FE]' : index % 2 === 0}" 
+            <tr v-if='category == 0' v-for="(data, index) in Dry" :class="{'bg-[#F7F6FE]' : index % 2 === 0}" 
             class="flex p-4 items-center">
-                <td class="flex-1 min-w-[100px]">{{ data.id }}</td>
-                <td class="flex-[2] min-w-[150px] text-left">{{ data.name }}</td>
-                <td class="flex-1 min-w-[100px]">{{ data.quantity }}</td>
-                <td class="flex-1 min-w-[120px]">{{ data.measurement }}</td>
-                <td class="flex-1 min-w-[100px] text-left">{{ data.status }}</td>
-                <td class="flex-1 min-w-[120px]">{{ data.manufactured }}</td>
-                <td class="flex-1 min-w-[120px]">{{ data.expiration }}</td>
-                <td class="flex-1 min-w-[120px]">{{ data.delivery }}</td>
+                <td class="flex-1 w1">{{ data.id }}</td>
+                <td class="flex-[2] w2">{{ data.name }}</td>
+                <td class="flex-1 w1">{{ data.quantity }}</td>
+                <td class="flex-1 w3">{{ data.measurement }}</td>
+                <td class="flex-1 w1">{{ data.status }}</td>
+                <td class="flex-1 w3">{{ data.manufactured }}</td>
+                <td class="flex-1 w3">{{ data.expiration }}</td>
+                <td class="flex-1 w3">{{ data.delivery }}</td>
             </tr>
-            <tr v-if='category == 1' v-for="(data, index) in ingredients.wet" :class="{'bg-[#F7F6FE]' : index % 2 === 0}" 
+            <tr v-if='category == 1' v-for="(data, index) in Wet" :class="{'bg-[#F7F6FE]' : index % 2 === 0}" 
             class="flex p-4 items-center">
-                <td class="flex-1 min-w-[100px]">{{ data.id }}</td>
-                <td class="flex-[2] min-w-[150px] text-left">{{ data.name }}</td>
-                <td class="flex-1 min-w-[100px]">{{ data.quantity }}</td>
-                <td class="flex-1 min-w-[120px]">{{ data.measurement }}</td>
-                <td class="flex-1 min-w-[100px] text-left">{{ data.status }}</td>
-                <td class="flex-1 min-w-[120px]">{{ data.manufactured }}</td>
-                <td class="flex-1 min-w-[120px]">{{ data.expiration }}</td>
-                <td class="flex-1 min-w-[120px]">{{ data.delivery }}</td>
+                <td class="flex-1 w1">{{ data.id }}</td>
+                <td class="flex-[2] w2">{{ data.name }}</td>
+                <td class="flex-1 w1">{{ data.quantity }}</td>
+                <td class="flex-1 w3">{{ data.measurement }}</td>
+                <td class="flex-1 w1">{{ data.status }}</td>
+                <td class="flex-1 w3">{{ data.manufactured }}</td>
+                <td class="flex-1 w3">{{ data.expiration }}</td>
+                <td class="flex-1 w3">{{ data.delivery }}</td>
             </tr>
         
-            <tr v-if='category == 2' v-for="(data, index) in ingredients.sauces" :class="{'bg-[#F7F6FE]' : index % 2 === 0}" 
+            <tr v-if='category == 2' v-for="(data, index) in Sauces" :class="{'bg-[#F7F6FE]' : index % 2 === 0}" 
             class="flex p-4 items-center">
-                <td class="flex-1 min-w-[100px]">{{ data.id }}</td>
-                <td class="flex-[2] min-w-[150px] text-left">{{ data.name }}</td>
-                <td class="flex-1 min-w-[100px]">{{ data.quantity }}</td>
-                <td class="flex-1 min-w-[120px]">{{ data.measurement }}</td>
-                <td class="flex-1 min-w-[100px] text-left">{{ data.status }}</td>
-                <td class="flex-1 min-w-[120px]">{{ data.manufactured }}</td>
-                <td class="flex-1 min-w-[120px]">{{ data.expiration }}</td>
-                <td class="flex-1 min-w-[120px]">{{ data.delivery }}</td>
+                <td class="flex-1 w1">{{ data.id }}</td>
+                <td class="flex-[2] w2">{{ data.name }}</td>
+                <td class="flex-1 w1">{{ data.quantity }}</td>
+                <td class="flex-1 w3">{{ data.measurement }}</td>
+                <td class="flex-1 w1">{{ data.status }}</td>
+                <td class="flex-1 w3">{{ data.manufactured }}</td>
+                <td class="flex-1 w3">{{ data.expiration }}</td>
+                <td class="flex-1 w3">{{ data.delivery }}</td>
             </tr>
         </table>
     </div>
 </template>
+<style scoped>
+.w1 {
+    min-width: 100px;
+}
+.w2 {
+    min-width: 150px;
+}
+.w3 {
+    min-width: 120px;
+}
+</style>

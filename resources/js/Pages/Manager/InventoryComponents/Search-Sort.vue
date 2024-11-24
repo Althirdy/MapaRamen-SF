@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from "vue";
+import { h, ref } from "vue";
 import Search from "../InventoryComponents/Search.vue";
 import DropDown from "../../../Components/DropDown.vue";
 
@@ -13,14 +13,14 @@ defineProps({
     sortBy: {default: []},
     HasSearch: { type: Boolean, default: true },
     HasAdd: { type: Boolean, default: true },
-    handleCategoryChange: (index) => {
-        console.log(index);
-    }
 });
 
 const emit = defineEmits(['update:category', 'update:sort'])
 const handleCategoryChange = (index) => {
     emit('update:category', index)
+}
+const handleSortChange = (index) => {
+    emit('update:sort', index)
 }
 
 </script>
@@ -35,7 +35,7 @@ const handleCategoryChange = (index) => {
         <div class="flex row gap-6">
             <div v-if="sortBy.length != 0" class="flex items-center gap-2">
                 <p>Sort By: </p>
-                <DropDown :options="sortBy"/>
+                <DropDown :options="sortBy" @change="handleSortChange" />
                 <button class="flex ml-2"> 
                     <img :src="`/Assets/${isAscending ? 'Ascending' : 'Descending'}.svg`" alt="sort direction">
                 </button>
