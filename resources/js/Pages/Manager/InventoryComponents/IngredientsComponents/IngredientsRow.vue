@@ -1,6 +1,4 @@
 <script setup>
-import Ingredients from '../Inventory/Ingredients.vue';
-
 defineProps({
     ingredients: {
         default: []

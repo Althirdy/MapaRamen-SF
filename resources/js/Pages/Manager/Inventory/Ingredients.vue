@@ -2,7 +2,7 @@
 import Main from "../../../Layouts/Main.vue";
 import InventoryNav from "../InventoryComponents/InventoryNav.vue";
 import SearchSort from "../InventoryComponents/Search-Sort.vue";
-import IngredientsTable from "../InventoryComponents/IngredientsTable.vue";
+import IngredientsTable from "../InventoryComponents/IngredientsComponents/IngredientsTable.vue";
 import { ref } from "vue";
 
 const categories = ["Dry", "Wet", "Sauces"];

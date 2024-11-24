@@ -4,15 +4,14 @@ import Search from "../InventoryComponents/Search.vue";
 import DropDown from "../../../Components/DropDown.vue";
 
 const isAscending = ref(true);
-const changeSort = () => {
-    isAscending.value = !isAscending.value;
-}
+
 let Categs = [];
 defineProps({
     categories: {default: []},
     sortBy: {default: []},
     HasSearch: { type: Boolean, default: true },
     HasAdd: { type: Boolean, default: true },
+    HasMenu: { type: Boolean, default: false },
 });
 
 const emit = defineEmits(['update:category', 'update:sort'])
@@ -44,6 +43,9 @@ const handleSortChange = (index) => {
                 <img :src="`/Assets/Add.svg`" alt="add">
                 Add Item
             </button>
+            <Link v-if="HasMenu" href="">
+                <img :src="`/Assets/Vertical-Menu.svg`" alt="menu">
+            </Link>
         </div>
     </div>
 </template>

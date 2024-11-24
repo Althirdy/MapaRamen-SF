@@ -3,7 +3,7 @@ import { ref } from "vue";
 import Main from "../../../Layouts/Main.vue";
 import InventoryNav from "../InventoryComponents/InventoryNav.vue";
 import SearchSort from "../InventoryComponents/Search-Sort.vue";
-import MealsTable from "../InventoryComponents/MealsTable.vue";
+import MealsTable from "../InventoryComponents/MealsComponents/MealsTable.vue";
 
 let categories = ["Ramen", "Maki", "Ala Carte", "Don Buri"];
 let sortBy = ["Alphabetical", "Quantity", "Expiration"];
