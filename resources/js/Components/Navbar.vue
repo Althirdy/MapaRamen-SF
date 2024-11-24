@@ -146,7 +146,49 @@
                 ></div>
 
                 <!-- Username -->
-                <span class="text-tertiary_dark">{{ username }}</span>
+                <div
+                    @click="toggleManagerDropdown"
+                    class="relative cursor-pointer"
+                >
+                    <span class="text-primary_dark font-medium">{{
+                        username
+                    }}</span>
+                </div>
+
+                <div
+                    v-if="showManagerDropdown"
+                    class="absolute right-0 top-0 mt-10 w-40 bg-white rounded-md shadow-md border z-50"
+                >
+                    <ul>
+                        <!-- <li>
+                            <Link
+                                class="w-full p-2 hover:bg-gray-200 rounded-b-md"
+                                :href="route('logout')"
+                                method="post"
+                                as="button"
+                            >
+                                Logout</Link
+                            >
+                        </li> -->
+                        <li>
+                            <Link
+                                class="w-full p-2 hover:bg-gray-200 rounded-b-md"
+                                :href="route('logout')"
+                                method="post"
+                                as="button"
+                            >
+                                Logout</Link
+                            >
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Backdrop for Manager Dropdown -->
+                <div
+                    v-if="showManagerDropdown"
+                    @click="toggleManagerDropdown"
+                    class="fixed inset-0 bg-black bg-opacity-50 z-40"
+                ></div>
             </div>
         </div>
     </nav>
@@ -163,6 +205,8 @@ import { ref } from "vue";
 
 // State for the dropdown and notifications
 const showNotifications = ref(false);
+const showManagerDropdown = ref(false);
+
 const notifications = ref([
     {
         title: "Trending Meal",
@@ -191,20 +235,24 @@ const username = ref("Manager");
 const toggleNotifications = () => {
     showNotifications.value = !showNotifications.value;
 };
+const toggleManagerDropdown = () => {
+    showManagerDropdown.value = !showManagerDropdown.value;
+    showNotifications.value = false; // Close other dropdown
+};
 </script>
 
 <style scoped>
 .custom-scrollbar::-webkit-scrollbar {
-  width: 8px;
+    width: 8px;
 }
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #9ca3af; /* Gray-400 */
-  border-radius: 4px;
+    background-color: #9ca3af; /* Gray-400 */
+    border-radius: 4px;
 }
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background-color: #6b7280; /* Gray-500 */
+    background-color: #6b7280; /* Gray-500 */
 }
 .custom-scrollbar::-webkit-scrollbar-track {
-  background-color: #e5e7eb; /* Gray-200 */
+    background-color: #e5e7eb; /* Gray-200 */
 }
 </style>

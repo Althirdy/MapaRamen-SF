@@ -1,12 +1,10 @@
 <script setup>
-import { ref } from "vue";
-import { router, useForm } from "@inertiajs/vue3";
+import { useForm } from "@inertiajs/vue3";
 import Button from "../../Components/Button.vue";
 import DropDown from "../../Components/DropDown.vue";
 import InputError from "../../Components/InputError.vue";
 
 const Role = ["Manager", "Kitchen", "Cashier"];
-
 
 const form = useForm({
     username: "",
@@ -19,8 +17,9 @@ const handleSelect = (option) => {
 };
 
 const submit = async () => {
-    form.post(route("login"),{
-        onError: () => form.reset('password')
+    form.post(route("login"), {
+        onError: () => form.reset("password"),
+        replace: true,
     });
 };
 </script>
@@ -63,7 +62,9 @@ const submit = async () => {
                     />
                     <InputError :error="form.errors.password" />
                 </div>
-                <Button label="Login" :disabled="form.processing" />
+                <Button :disabled="form.processing">
+                    <span>Login</span>
+                </Button>
             </form>
         </div>
     </div>

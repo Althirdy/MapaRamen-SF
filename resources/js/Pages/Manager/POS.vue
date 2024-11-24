@@ -1,13 +1,15 @@
-<template lang="">
+<template>
     <Main>
         <div
-            class="max-w-screen-2xl p-6  flex  mx-auto bg-white rounded-md border border-disabled"
+            class="max-w-screen-2xl p-6 flex mx-auto bg-white rounded-md border border-disabled"
         >
-        <MealCategories
-        :selectedCategory="selectedCategory"
-        @categorySelected="handleCategorySelected"
-      />
-    </div>
+            <MealCategories
+                :selectedCategory="selectedCategory"
+                @categorySelected="handleCategorySelected"
+            />
+            <div>
+            </div>
+        </div>
     </Main>
 </template>
 <script setup>
@@ -18,7 +20,6 @@ import { ref } from "vue";
 const selectedCategory = ref("Best Seller");
 
 const handleCategorySelected = (category) => {
-  selectedCategory.value = category;
+    selectedCategory.value = category;
 };
 </script>
-<style lang=""></style>
