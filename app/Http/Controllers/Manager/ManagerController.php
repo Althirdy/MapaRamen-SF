@@ -16,8 +16,10 @@ class ManagerController extends Controller
         return Inertia::render('Manager/POS');
      }
      public function ingredients(){
-         $ingredients = DB::table('ingredients')->get();
-        return Inertia::render('Manager/Inventory/Ingredients', ['ingredients' => $ingredients]);
+         // $ingredients = DB::table('ingredients')->get();
+        return Inertia::render('Manager/Inventory/Ingredients', 
+      //   ['ingredients' => $ingredients]
+      );
      }
      public function meals(){
         return Inertia::render('Manager/Inventory/Meals');

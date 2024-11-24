@@ -7,33 +7,40 @@ const isAscending = ref(true);
 const changeSort = () => {
     isAscending.value = !isAscending.value;
 }
-
+let Categs = [];
 defineProps({
-    categories: Array,
-    sortBy: Array,
-    search: { type: Boolean, default: true },
-    categories: { type: Boolean, default: true },
-    sort: { type: Boolean, default: true },
-    add: { type: Boolean, default: true },
+    categories: {default: []},
+    sortBy: {default: []},
+    HasSearch: { type: Boolean, default: true },
+    HasAdd: { type: Boolean, default: true },
+    handleCategoryChange: (index) => {
+        console.log(index);
+    }
 });
+
+const emit = defineEmits(['update:category', 'update:sort'])
+const handleCategoryChange = (index) => {
+    emit('update:category', index)
+}
+
 </script>
 <template>
     <div class="max-w-screen-xl p-4 min-h-full flex row justify-between">
         <div class="flex row gap-2">
-            <Search v-if="search"/>
-            <div v-if="categories" class="flex items-center w-max">
-                <DropDown :options="categories" />
+            <Search v-if="HasSearch"/>
+            <div v-if="categories.length != 0" class="flex items-center w-max">
+                <DropDown :options="categories" @change="handleCategoryChange" />
             </div>
         </div>
         <div class="flex row gap-6">
-            <div v-if="sort" class="flex items-center gap-2">
+            <div v-if="sortBy.length != 0" class="flex items-center gap-2">
                 <p>Sort By: </p>
                 <DropDown :options="sortBy"/>
-                <button class="flex ml-2" @click="changeSort">
+                <button class="flex ml-2"> 
                     <img :src="`/Assets/${isAscending ? 'Ascending' : 'Descending'}.svg`" alt="sort direction">
                 </button>
             </div>
-            <button v-if="add" class="bg-primary_blue rounded-lg text-primary_light flex items-center gap-2 px-4 py-2">
+            <button v-if="HasAdd" class="bg-primary_blue rounded-lg text-primary_light flex items-center gap-2 px-4 py-2">
                 <img :src="`/Assets/Add.svg`" alt="add">
                 Add Item
             </button>

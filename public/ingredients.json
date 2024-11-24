@@ -1,0 +1,60 @@
+{
+    "dry": [{
+        "id": 24001,
+        "name": "Aonori",
+        "quantity": 100,
+        "measurement": "(g)grams",
+        "status": "Critical",
+        "manufactured": "11/25/2024",
+        "expiration": "11/25/2024",
+        "delivery": "11/25/2024"
+    }, {
+        "id": 24003,
+        "name": "Baran",
+        "quantity": 40,
+        "measurement": "(g)grams",
+        "status": "Critical",
+        "manufactured": "11/25/2024",
+        "expiration": "11/25/2024",
+        "delivery": "11/25/2024"
+    }
+    ],
+    "wet": [{
+        "id": 24001,
+        "name": "Beef Gyudon",
+        "quantity": 34,
+        "measurement": "slices",
+        "status": "In Stock",
+        "manufactured": "11/25/2024",
+        "expiration": "11/25/2024",
+        "delivery": "11/25/2024"
+    },{
+        "id": 24002,
+        "name": "Beef Karubi",
+        "quantity": 55,
+        "measurement": "slices",
+        "status": "In Stock",
+        "manufactured": "11/25/2024",
+        "expiration": "11/25/2024",
+        "delivery": "11/25/2024"
+    }], 
+    "sauces": [{
+        "id": 24011,
+        "name": "Chili Oil",
+        "quantity": 200,
+        "measurement": "(mL)mililiters",
+        "status": "Low",
+        "manufactured": "11/25/2024",
+        "expiration": "11/25/2024",
+        "delivery": "11/25/2024"
+    },{
+        "id": 24020,
+        "name": "Tonkatsu Sauce",
+        "quantity": 400,
+        "measurement": "(mL)mililiters",
+        "status": "In Stock",
+        "manufactured": "11/25/2024",
+        "expiration": "11/25/2024",
+        "delivery": "11/25/2024"
+    }]
+}
