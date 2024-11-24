@@ -1,7 +1,4 @@
 <script setup>
-
-import { ref } from 'vue';
-
 let ingredients = await fetchData();
 let Dry = ingredients.dry;
 let Wet = ingredients.wet;
@@ -14,10 +11,13 @@ async function fetchData(){
     return data;
 }
 
+
 const props = defineProps({
     category: Number,
     sortBy: Number,
+    sortBy: Number,
 })
+
 </script> 
 <template>
     <div class="overflow-x-auto">
