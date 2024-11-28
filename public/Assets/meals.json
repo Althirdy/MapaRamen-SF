@@ -1,0 +1,54 @@
+{
+    "ramen": [{
+        "Maparamen": [{
+            "noodles": [{
+                "quantity": 1,
+                "measurement": "order"
+            },{
+            "shio-sauce": [{
+                "quantity": 30,
+                "measurement": "(mL) mililiters"
+                }]
+                }, {
+            "soup-stock": [{
+                "quantity": 30,
+                "measurement": "(mL) mililiters"
+            }]
+            }, {
+            "chasu-pork": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+            }, {
+            "wakami": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "naruto": [{
+                "quantity": 1,
+                "measurement": "slice"
+            }]
+            },{
+            "onion-leaks": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "sesame-seed": [{
+                "quantity": 1,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "nori": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+            },{
+            "chili-oil": [{
+                "quantity": 10,
+                "measurement": "(mL) mililiters"
+            }]
+            }]
+    }]}]
+}
