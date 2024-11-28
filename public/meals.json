@@ -1,0 +1,52 @@
+{
+    "ramen": [{
+        "id": 2402,
+        "name": "Beef Ramen",
+        "quantity": 20,
+        "status": "Critical"
+    },{
+        "id": 2406,
+        "name": "Karamiso Ramen",
+        "quantity": 100,
+        "status": "Low"
+    }, {
+        "id": 2407,
+        "name": "MapaRamen",
+        "quantity": 200,
+        "status": "In Stock"
+    }],
+    "maki": [{
+        "id": 2402,
+        "name": "MapaMaki",
+        "quantity": 100,
+        "status": "Low"
+    },{
+        "id": 2402,
+        "name": "Cheezy Ramen",
+        "quantity": 20,
+        "status": "Critical"
+    }],
+    "alaCarte": [{
+        "id": 2402,
+        "name": "Sisig",
+        "quantity": 150,
+        "status": "Low"
+    },{
+        "id": 2402,
+        "name": "T-Bone Steak",
+        "quantity": 300,
+        "status": "In Stock"
+    }],
+    "donBuri": [{
+        "id": 2402,
+        "name": "Chicken Teriyaki",
+        "quantity": 100,
+        "status": "Low"
+    }, {
+        "id": 2402,
+        "name": "Katsudon",
+        "quantity": 340,
+        "status": "In Stock"
+    }]
+
+}
