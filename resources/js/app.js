@@ -7,6 +7,7 @@ import { ZiggyVue } from "../../vendor/tightenco/ziggy";
 import InputField from "../js/Components/InputField.vue";
 import SearchInput from "./Components/SearchInput.vue";
 import MealCategories from "./Components/MealCategories.vue";
+import MealList from "./Components/MealList.vue";
 
 
 createInertiaApp({
@@ -26,6 +27,7 @@ createInertiaApp({
             .component("InputField", InputField)
             .component("SearchInput",SearchInput)
             .component("MealCategories",MealCategories)
+            .component("MealList", MealList )
             .mount(el);
     },
     progress: {
