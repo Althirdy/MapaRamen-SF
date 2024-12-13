@@ -17,7 +17,7 @@ const props = defineProps({
     sortBy: Number,
 })
 
-</script> 
+</script>
 <template>
     <div class="overflow-x-auto">
         <table class="w-full min-w-[1000px] text-left">
