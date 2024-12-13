@@ -1,0 +1,1923 @@
+[{
+    "ramen": [{
+        "mapa-ramen": [{
+            "noodles": [{
+                "quantity": 1,
+                "measurement": "order"
+            },{
+            "shio-sauce": [{
+                "quantity": 30,
+                "measurement": "(ml)mililiters"
+            }]
+            }, {
+            "soup-stock": [{
+                "quantity": 30,
+                "measurement": "(ml)mililiters"
+            }]
+            }, {
+            "chasu-pork": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+            }, {
+            "wakami": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "naruto": [{
+                "quantity": 1,
+                "measurement": "slice"
+            }]
+            },{
+            "onion-leaks": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "sesame-seed": [{
+                "quantity": 1,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "nori": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+            },{
+            "chili-oil": [{
+                "quantity": 10,
+                "measurement": "(ml)mililiters"
+            }]
+            }]
+    }]
+    
+}, {
+        "Shio": [{
+            "noodles": [{
+                "quantity": 1,
+                "measurement": "order"
+            },{
+            "shio-sauce": [{
+                "quantity": 30,
+                "measurement": "(ml)mililiters"
+            }]
+            }, {
+            "soup-stock": [{
+                "quantity": 30,
+                "measurement": "(ml)mililiters"
+            }]
+            }, {
+            "chasu-pork": [{
+                "quantity": 2,
+                "measurement": "piece/s"
+            }]
+            }, {
+            "wakami": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "naruto": [{
+                "quantity": 1,
+                "measurement": "slice"
+            }]
+            },{
+            "onion-leaks": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "sesame-seed": [{
+                "quantity": 1,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "nori": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+            },{
+            "negi-oil": [{
+                "quantity": 10,
+                "measurement": "(ml)mililiters"
+            }]
+            }]
+        
+    }]
+}, {
+        "shoyu": [{
+            "noodles": [{
+                "quantity": 1,
+                "measurement": "order"
+            },{
+            "shio-sauce": [{
+                "quantity": 30,
+                "measurement": "(ml)mililiters"
+            }]
+            },{
+            "shoyu-sauce": [{
+                "quantity": 30,
+                "measurement": "(ml)mililiters"
+            }]
+            }, {
+            "soup-stock": [{
+                "quantity": 30,
+                "measurement": "(ml)mililiters"
+            }]
+            }, {
+            "chasu-pork": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+            }, {
+            "wakami": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "naruto": [{
+                "quantity": 1,
+                "measurement": "slice"
+            }]
+            },{
+            "onion-leaks": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "sesame-seed": [{
+                "quantity": 1,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "nori": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+            },{
+            "negi-oil": [{
+                "quantity": 10,
+                "measurement": "(ml)mililiters"
+            }]
+            }]
+        }]
+}, {
+        "wantan-ramen": [{
+            "noodles": [{
+                "quantity": 1,
+                "measurement": "order"
+            },{
+            "shoyu-sauce": [{
+                "quantity": 30,
+                "measurement": "(ml)mililiters"
+            }]
+            }, {
+            "soup-stock": [{
+                "quantity": 30,
+                "measurement": "(ml)mililiters"
+            }]
+            }, {
+            "cabbage": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "carrots": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "onion": [{
+                "quantity": 1,
+                "measurement": "slice"
+            }]
+            },{
+            "wantan": [{
+                "quantity": 5,
+                "measurement": "piece/s"
+            }]
+            },{
+            "wakami": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "naruto": [{
+                "quantity": 1,
+                "measurement": "slice"
+            }]
+            },{
+            "onion-leaks": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "sesame-seed": [{
+                "quantity": 1,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "nori": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+            },{
+            "sesame-oil": [{
+                "quantity": 15,
+                "measurement": "(ml)mililiters"
+            }]
+            }]
+        }]
+}, {
+        "tonkutsu": [{
+            "noodles": [{
+                "quantity": 1,
+                "measurement": "order"
+            },{
+            "tonkutsu-sauce": [{
+                "quantity": 30,
+                "measurement": "(ml)mililiters"
+            }]
+            }, {
+            "soup-stock": [{
+                "quantity": 30,
+                "measurement": "(ml)mililiters"
+            }]
+            }, {
+            "chasu-pork": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+            }, {
+            "wakami": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "naruto": [{
+                "quantity": 1,
+                "measurement": "slice"
+            }]
+            },{
+            "onion-leaks": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "sesame-seed": [{
+                "quantity": 1,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "nori": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+            },{
+            "negi-oil": [{
+                "quantity": 10,
+                "measurement": "(ml)mililiters"
+            }]
+            },{
+            "benishoga": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            }]
+    }]
+}, {
+        "miso-ramen": [{
+            "noodles": [{
+                 "quantity": 1,
+                 "measurement": "order"
+        }, {
+            "soup-stock": [{
+                  "quantity": 30,
+                  "measurement": "(ml)mililiters"
+        }]
+        }, {
+            "chasu-pork": [{
+                  "quantity": 1,
+                  "measurement": "piece/s"
+        }]
+        }, {
+            "plain-giniling": [{
+                  "quantity": 30,
+                  "measurement": "(g)grams"
+        }]
+        },{
+            "cabbage": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+        }]
+        },{
+            "carrots": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+        },{
+            "onion": [{
+                "quantity": 1,
+                "measurement": "(g)grams"
+        }]
+        }, {
+            "ground-pepper": [{
+                "quantity": 1,
+                "measurement": "pinch"
+        }]
+        },{
+            "mince-garlic": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+        }]
+        },{
+            "miso-base": [{
+                "quantity": 45,
+                "measurement": "(ml)mililiters"
+        }]
+        },{
+            "naruto": [{
+                "quantity": 1,
+                "measurement": "slice"
+        }]
+        },{
+            "onion-leaks": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+        }]
+        },{
+            "sesame-seed": [{
+                "quantity": 1,
+                "measurement": "(g)grams"
+        }]
+        }, {
+            "nori": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+        }]
+        }, {
+            "sesame-oil": [{
+                "quantity": 15,
+                "measurement": "(ml)mililiters"
+        }]
+        }]
+}]
+}, {
+    "tantanmen": [{
+        "noodles": [{
+             "quantity": 1,
+             "measurement": "order"
+    }, {
+        "shio-sauce": [{
+              "quantity": 30,
+              "measurement": "(ml)mililiters"
+    }]
+    }, {
+        "tantanmen-sauce": [{
+              "quantity": 30,
+              "measurement": "(ml)mililiters"
+    }]
+    },{
+        "soup-stock": [{
+            "quantity": 30,
+            "measurement": "(ml)mililiters"
+    }]
+    },{
+        "chasu-pork": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+    },{
+        "evap-milk": [{
+            "quantity": 60,
+            "measurement": "(ml)mililiters"
+    }]
+    }, {
+        "tantan-giniling": [{
+            "quantity": 30,
+            "measurement": "(g)grams"
+    }]
+    }, {
+        "wakami": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "naruto": [{
+            "quantity": 1,
+            "measurement": "slice"
+        }]
+        },{
+        "onion-leaks": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "sesame-seed": [{
+            "quantity": 1,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "nori": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+        },{
+        "chili-oil": [{
+            "quantity": 10,
+            "measurement": "(ml)mililiters"
+        }]
+        }]
+}]
+}, {
+    "beef-ramen": [{
+        "noodles": [{
+             "quantity": 1,
+             "measurement": "order"
+    }, {
+        "shio-sauce": [{
+              "quantity": 30,
+              "measurement": "(ml)mililiters"
+    }]
+    },{
+        "soup-stock": [{
+            "quantity": 30,
+            "measurement": "(ml)mililiters"
+    }]
+    },{
+        "beef-gyudon": [{
+            "quantity": 0.5,
+            "measurement": "order"
+        }]
+    }, {
+        "wakami": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "naruto": [{
+            "quantity": 1,
+            "measurement": "slice"
+        }]
+        },{
+        "onion-leaks": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "sesame-seed": [{
+            "quantity": 1,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "nori": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+        }, {
+            "negi-oil": [{
+                "quantity": 10,
+                "measurement": "(ml)mililiters"
+        }]
+        }]
+}]
+}, {
+    "karamiso-ramen": [{
+        "noodles": [{
+             "quantity": 1,
+             "measurement": "order"
+    },{
+        "soup-stock": [{
+            "quantity": 30,
+            "measurement": "(ml)mililiters"
+    }]
+    },{
+        "chasu-pork": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+    }, {
+        "tantan-giniling": [{
+            "quantity": 30,
+            "measurement": "(g)grams"
+        }]
+        },{
+            "cabbage": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+        }]
+        },{
+            "carrots": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+        },{
+            "onion": [{
+                "quantity": 1,
+                "measurement": "(g)grams"
+        }]
+        }, {
+            "ground-pepper": [{
+                "quantity": 1,
+                "measurement": "pinch"
+        }]
+        },{
+            "mince-garlic": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+        }]
+        },{
+            "palm-oil": [{
+                "quantity": 5,
+                "measurement": "(ml)mililiters"
+        }]
+        },{
+        "naruto": [{
+            "quantity": 1,
+            "measurement": "slice"
+        }]
+        },{
+        "onion-leaks": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "sesame-seed": [{
+            "quantity": 1,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "nori": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+        }, {
+            "geki-kara-paste": [{
+                "quantity": 1,
+                "measurement": "(tbsp)tablespoon"
+        }]
+        }]
+}]
+}, {
+    "seafood": [{
+        "noodles": [{
+             "quantity": 1,
+             "measurement": "order"
+    },{
+        "tonkatsu-sauce": [{
+            "quantity": 30,
+            "measurement": "(ml)mililiters"
+    }]
+    },{
+        "soup-stock": [{
+            "quantity": 30,
+            "measurement": "(ml)mililiters"
+    }]
+    },{
+        "shrimp": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+    },{
+        "squid": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+    },{
+        "tahong": [{
+            "quantity": 2,
+            "measurement": "piece/s"
+        }]
+    },{
+        "crabstick": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+    },{
+        "carrots": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+    },{
+        "onion": [{
+            "quantity": 1,
+            "measurement": "(g)grams"
+    }]
+    }, {
+        "ground-pepper": [{
+            "quantity": 1,
+            "measurement": "pinch"
+    }]
+    }, {
+        "wakami": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "naruto": [{
+            "quantity": 1,
+            "measurement": "slice"
+        }]
+        },{
+        "onion-leaks": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "sesame-seed": [{
+            "quantity": 1,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "nori": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+        }, {
+            "chili-oil": [{
+                "quantity": 10,
+                "measurement": "(ml)mililiters"
+        }]
+        }]
+}]
+}]
+},{
+    "don-buri": [{
+        "katsudon": [{
+            "japa-rice": [{
+                "quantity": 1,
+                "measurement": "cup"
+            }, {
+            "pork-katsudon": [{
+                "quantity": 1,
+                "measurement": "order"
+            }]
+            }, {
+            "katsudon-sauce": [{
+                "quantity": 30,
+                "measurement": "(ml)mililiters"
+            }]
+            }, {
+            "water": [{
+                "quantity": 60,
+                "measurement": "(ml)mililiters"
+            }]
+            },{
+            "onion": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "benishoga": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "aonori": [{
+                "quantity": 1,
+                "measurement": "pinch"
+            }]
+            },{
+            "cooking-oil": [{
+                "quantity": 10,
+                "measurement": "(ml)mililiters"
+            }]
+            }]
+    }]
+    
+}, {
+        "chicken-teriyaki": [{
+            "japa-rice": [{
+                "quantity": 1,
+                "measurement": "cup"
+            }, {
+            "chicken-t.": [{
+                "quantity": 1,
+                "measurement": "order"
+            }]
+            }, {
+            "coleslaw": [{
+                "quantity": 50,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "dressing-mayo": [{
+                "quantity": 30,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "teriyaki-sauce": [{
+                "quantity": 30,
+                "measurement": "(ml)mililiters"
+            }]
+            },{
+            "sesame-seed": [{
+                "quantity": 1,
+                "measurement": "pinch"
+            }]
+            },{
+            "aonori": [{
+                "quantity": 1,
+                "measurement": "pinch"
+            }]
+            },{
+            "cooking-oil": [{
+                "quantity": 10,
+                "measurement": "(ml)mililiters"
+            }]
+            }]
+        
+    }]
+}, {
+        "pork-shogayaki": [{
+            "japa-rice": [{
+                "quantity": 1,
+                "measurement": "cup"
+            }, {
+            "onion": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "benishoga": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "pork-shogayaki": [{
+                "quantity": 1,
+                "measurement": "order"
+            }]
+            },{
+            "shogayaki-sauce": [{
+                "quantity": 60,
+                "measurement": "(ml)mililiters"
+            }]
+            },{
+            "sesame-seed": [{
+                "quantity": 1,
+                "measurement": "pinch"
+            }]
+            },{
+            "onion-leaks": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "cooking-oil": [{
+                "quantity": 10,
+                "measurement": "(ml)mililiters"
+            }]
+            }]
+        }]
+}, {
+    "karaage-don": [{
+        "japa-rice": [{
+            "quantity": 1,
+            "measurement": "cup"
+        }, {
+        "coleslaw": [{
+            "quantity": 50,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "dressing-mayo": [{
+            "quantity": 30,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "teriyaki-sauce": [{
+            "quantity": 15,
+            "measurement": "(ml)mililiters"
+        }]
+        },{
+        "sesame-seed": [{
+            "quantity": 1,
+            "measurement": "pinch"
+        }]
+        },{
+        "karaage-d.": [{
+            "quantity": 1,
+            "measurement": "order"
+        }]
+        },{
+        "cooking-oil": [{
+            "quantity": 10,
+            "measurement": "(ml)mililiters"
+        }]
+        }]
+    }]
+}, {
+    "tempura-don": [{
+        "japa-rice": [{
+            "quantity": 1,
+            "measurement": "cup"
+        }, {
+        "teriyaki-sauce": [{
+            "quantity": 30,
+            "measurement": "(ml)mililiters"
+        }]
+        }, {
+        "water": [{
+            "quantity": 60,
+            "measurement": "(ml)mililiters"
+        }]
+        }, {
+        "shrimp": [{
+            "quantity": 3,
+            "measurement": "piece/s"
+        }]
+        },{
+        "showa": [{
+            "quantity": 50,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "carrots": [{
+            "quantity": 3,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "cooking-oil": [{
+            "quantity": 10,
+            "measurement": "(ml)mililiters"
+        }]
+        }]
+    }]
+}, {
+    "beef-gyudon": [{
+        "japa-rice": [{
+            "quantity": 1,
+            "measurement": "cup"
+        }, {
+        "katsudon-sauce": [{
+            "quantity": 30,
+            "measurement": "(ml)mililiters"
+        }]
+        }, {
+        "onion": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "benishoga": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "onion-leaks": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "beef-gyudon": [{
+            "quantity": 1,
+            "measurement": "order"
+        }]
+        },{
+            "eden-cheese": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+            },{
+        "cooking-oil": [{
+            "quantity": 10,
+            "measurement": "(ml)mililiters"
+        }]
+        }]
+    }]
+}, {
+    "tempura-ala-carte": [{
+        "water": [{
+            "quantity": 60,
+            "measurement": "(ml)mililiters"
+        }, {
+        "onion": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "shrimp": [{
+            "quantity": 5,
+            "measurement": "piece/s"
+        }]
+        },{
+        "showa": [{
+            "quantity": 50,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "carrots": [{
+            "quantity": 3,
+            "measurement": "(g)grams"
+        }]
+        },{
+            "radish": [{
+                "quantity": 10,
+                "measurement": "(g)grams"
+        }]
+        },{
+        "ginger": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+            "tempura-sauce": [{
+                "quantity": 15,
+                "measurement": "(ml)mililiters"
+        }]
+        },{
+            "cooking-oil": [{
+                "quantity": 10,
+                "measurement": "(ml)mililiters"
+            }]
+            }]
+    }]
+}, {
+    "gyoza": [{
+        "water": [{
+            "quantity": 60,
+            "measurement": "(ml)mililiters"
+        }, {
+        "onion-leaks": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "gyoza": [{
+            "quantity": 5,
+            "measurement": "piece/s"
+        }]
+        },{
+        "cooking-oil": [{
+            "quantity": 10,
+            "measurement": "(ml)mililiters"
+        }]
+        },{
+        "gyoza-sauce": [{
+            "quantity": 20,
+            "measurement": "(ml)mililiters"
+        }]
+        }]
+    }]
+}, {
+    "yakisoba": [{
+        "onion": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }, {
+        "benishoga": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "aonori": [{
+            "quantity": 1,
+            "measurement": "pinch"
+        }]
+        },{
+        "yakisoba-sauce": [{
+            "quantity": 20,
+            "measurement": "(ml)mililiters"
+        }]
+        },{
+        "carrots": [{
+            "quantity": 3,
+            "measurement": "(g)grams"
+        }]
+        }, {
+            "yakisoba-noodles": [{
+                "quantity": 1,
+                "measurement": "order"
+            }]
+        }, {
+            "bell-pepper": [{
+                "quantity": 50,
+                "measurement": "(g)grams"
+            }]
+        }, {
+            "cabbage": [{
+                "quantity": 50,
+                "measurement": "(g)grams"
+            }]
+        }, {
+            "chasu-pork": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+        }]
+    }]
+
+
+}]
+}, {
+    "maki": [{
+        "mapa-maki": [{
+            "maki-rice": [{
+                "quantity": 1,
+                "measurement": "cup"
+            },{
+            "nori-sheet": [{
+                "quantity": 0.5,
+                "measurement": "piece/s"
+            }]
+            }, {
+            "crabstick": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+            }, {
+            "mango": [{
+                "quantity": 20,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "cucumber": [{
+                "quantity": 10,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "ebico": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "tenkats": [{
+                "quantity": 50,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "aonori": [{
+                "quantity": 2,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "pink-gari": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "wasabi": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            }]
+    }]
+    
+}, {
+    "volcano": [{
+        "maki-rice": [{
+            "quantity": 1,
+            "measurement": "cup"
+        },{
+        "nori-sheet": [{
+            "quantity": 0.5,
+            "measurement": "piece/s"
+        }]
+        }, {
+        "crabstick": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+        }, {
+        "mango": [{
+            "quantity": 20,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "ebico": [{
+            "quantity": 1,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "tenkats": [{
+            "quantity": 2,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "mayo-orig": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "dressing-mayo": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "fried-leaks": [{
+            "quantity": 2,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "cream-cheese": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        }]
+}]
+}, {
+    "cheezy-maki": [{
+        "maki-rice": [{
+            "quantity": 1,
+            "measurement": "cup"
+        },{
+        "nori-sheet": [{
+            "quantity": 0.5,
+            "measurement": "piece/s"
+        }]
+        }, {
+        "crabstick": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+        }, {
+        "mango": [{
+            "quantity": 20,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "cucumber": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "pink-gari": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "wasabi": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "mayo-orig": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "eden-cheese": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+        },{
+        "dressing-mayo": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "dm-ketchup": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        }]
+}]
+}, {
+    "spicy-maki": [{
+        "maki-rice": [{
+            "quantity": 1,
+            "measurement": "cup"
+        },{
+        "nori-sheet": [{
+            "quantity": 0.5,
+            "measurement": "piece/s"
+        }]
+        }, {
+        "crabstick": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+        }, {
+        "mango": [{
+            "quantity": 20,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "cucumber": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "mayo-orig": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "sesame-seed": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "spicy-maki-sauce": [{
+            "quantity": 40,
+            "measurement": "(ml)mililiters"
+        }]
+        }]
+}]
+}, {
+    "california": [{
+        "maki-rice": [{
+            "quantity": 1,
+            "measurement": "cup"
+        },{
+        "nori-sheet": [{
+            "quantity": 0.5,
+            "measurement": "piece/s"
+        }]
+        }, {
+        "crabstick": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+        }, {
+        "mango": [{
+            "quantity": 20,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "cucumber": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "ebico": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "pink-gari": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "wasabi": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "mayo-orig": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        }]
+}]
+}, {
+    "fried-tuna-maki": [{
+        "maki-rice": [{
+            "quantity": 1,
+            "measurement": "cup"
+        },{
+        "nori-sheet": [{
+            "quantity": 0.5,
+            "measurement": "piece/s"
+        }]
+        }, {
+        "cucumber": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "ebico": [{
+            "quantity": 1,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "tenkats": [{
+            "quantity": 2,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "fried-leaks": [{
+            "quantity": 2,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "cream-cheese": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "tuna": [{
+            "quantity": 40,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "sweet-mayo": [{
+            "quantity": 20,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "teriyaki-sauce": [{
+            "quantity": 20,
+            "measurement": "(g)grams"
+        }]
+        }]
+}]
+}, {
+    "spicy-salmon-maki": [{
+        "maki-rice": [{
+            "quantity": 1,
+            "measurement": "cup"
+        },{
+        "nori-sheet": [{
+            "quantity": 0.5,
+            "measurement": "piece/s"
+        }]
+        }, {
+        "cucumber": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "tenkats": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "mayo-orig": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "sesame-seed": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "spicy-maki-sauce": [{
+            "quantity": 40,
+            "measurement": "(ml)mililiters"
+        }]
+        }, {
+        "fried-leaks": [{
+            "quantity": 2,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "salmon": [{
+            "quantity": 40,
+            "measurement": "(g)grams"
+        }]
+        }]
+}]
+}, {
+    "spicy-tuna-maki": [{
+        "maki-rice": [{
+            "quantity": 1,
+            "measurement": "cup"
+        },{
+        "nori-sheet": [{
+            "quantity": 0.5,
+            "measurement": "piece/s"
+        }]
+        }, {
+        "cucumber": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "tenkats": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "mayo-orig": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "sesame-seed": [{
+            "quantity": 2,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "spicy-maki-sauce": [{
+            "quantity": 40,
+            "measurement": "(ml)mililiters"
+        }]
+        }, {
+        "fried-leaks": [{
+            "quantity": 2,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "tuna": [{
+            "quantity": 40,
+            "measurement": "(g)grams"
+        }]
+        }]
+}]
+}, {
+    "salmon-roll-special": [{
+        "maki-rice": [{
+            "quantity": 1,
+            "measurement": "cup"
+        },{
+        "nori-sheet": [{
+            "quantity": 0.5,
+            "measurement": "piece/s"
+        }]
+        }, {
+        "crabstick": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+        }, {
+        "mango": [{
+            "quantity": 20,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "cucumber": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "ebico": [{
+            "quantity": 1,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "tenkats": [{
+            "quantity": 2,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "mayo-orig": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "fried-leaks": [{
+            "quantity": 2,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "cream-cheese": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "sweet-mayo": [{
+            "quantity": 20,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "salmon": [{
+            "quantity": 50,
+            "measurement": "(g)grams"
+        }]
+        }]
+}]
+}, {
+    "mapa-tuna-sashimi": [{
+        "cucumber": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        },{
+        "wasabi": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "spicy-maki-sauce": [{
+            "quantity": 40,
+            "measurement": "(ml)mililiters"
+        }]
+        },{
+        "tuna": [{
+            "quantity": 150,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "carrots": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "radish": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "lemon": [{
+            "quantity": 15,
+            "measurement": "slice"
+        }]
+        }, {
+        "wakami": [{
+            "quantity": 3,
+            "measurement": "(g)grams"
+        }]
+        }]
+}]
+}, {
+    "mapa-salmon-sashimi": [{
+        "cucumber": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        },{
+        "wasabi": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "carrots": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "radish": [{
+            "quantity": 10,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "lemon": [{
+            "quantity": 15,
+            "measurement": "slice"
+        }]
+        }, {
+        "wakami": [{
+            "quantity": 3,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "salmon": [{
+            "quantity": 150,
+            "measurement": "(g)grams"
+        }]
+        }]
+}]
+}]
+
+},{
+    "sizzling-plates": [{
+        "t-bone-steak": [{
+            "rice": [{
+                "quantity": 200,
+                "measurement": "(g)grams"
+            }, {
+            "t-bone": [{
+                "quantity": 130,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "butter": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "salt": [{
+                "quantity": 1,
+                "measurement": "pinch"
+            }]
+            },{
+            "pepper": [{
+                "quantity": 1,
+                "measurement": "pinch"
+            }]
+            },{
+            "mixed-veggies": [{
+                "quantity": 30,
+                "measurement": "(g)grams"
+            }]
+            }]
+    }]
+    
+}, {
+        "bagnet-sisig": [{
+            "rice": [{
+                "quantity": 200,
+                "measurement": "(g)grams"
+            }, {
+            "bagnet-sisig": [{
+                "quantity": 50,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "white-onion": [{
+                "quantity": 50,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "sili-green": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "sili-labuyo": [{
+                "quantity": 2,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "mixed-mayo": [{
+                "quantity": 1.5,
+                "measurement": "(tbsp)tablespoon"
+            }]
+            },{
+            "calamansi": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+            }]
+        
+    }]
+}, {
+        "chicken-fillet": [{
+            "rice": [{
+                "quantity": 200,
+                "measurement": "(g)grams"
+            }, {
+            "chicken-fillet": [{
+                "quantity": 100,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "gravy-sauce": [{
+                "quantity": 0.5,
+                "measurement": "cup"
+            }]
+            }, {
+            "mixed-veggies": [{
+                "quantity": 30,
+                "measurement": "(g)grams"
+            }]
+            }]
+        }]
+}, {
+    "chicken-sisig": [{
+        "rice": [{
+            "quantity": 200,
+            "measurement": "(g)grams"
+        }, {
+        "chicken-filler": [{
+            "quantity": 50,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "white-onion": [{
+            "quantity": 50,
+            "measurement": "(g)grams"
+        }]
+        }, {
+        "sili-green": [{
+            "quantity": 5,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "sili-labuyo": [{
+            "quantity": 2,
+            "measurement": "(g)grams"
+        }]
+        },{
+        "calamansi": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+        }]
+    }]
+}, {
+    "hungarian-sausage": [{
+        "rice": [{
+            "quantity": 200,
+            "measurement": "(g)grams"
+        }, {
+        "hungarian": [{
+            "quantity": 1,
+            "measurement": "piece/s"
+        }]
+        }, {
+        "gravyy-sauce": [{
+            "quantity": 0.5,
+            "measurement": "cup"
+        }]
+        }, {
+        "mixed-veggies": [{
+            "quantity": 30,
+            "measurement": "(g)grams"
+        }]
+        }]
+    }]
+}]
+},{
+    "pinoy-rice-plates": [{
+        "kare-kare-bagnet": [{
+            "rice": [{
+                "quantity": 200,
+                "measurement": "(g)grams"
+            }, {
+            "bagnet": [{
+                "quantity": 50,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "string-beans": [{
+                "quantity": 20,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "eggplant": [{
+                "quantity": 20,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "kare-kare-sauce": [{
+                "quantity": 0.5,
+                "measurement": "cup"
+            }]
+            },{
+            "bagoong": [{
+                "quantity": 1,
+                "measurement": "(tbsp)tablespoon"
+            }]
+            }]
+    }]
+    
+}, {
+        "binagoongan-bagnet": [{
+            "rice": [{
+                "quantity": 200,
+                "measurement": "(g)grams"
+            }, {
+            "bagnet": [{
+                "quantity": 50,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "eggplant": [{
+                "quantity": 20,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "sili-green": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "onion": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            }]
+        
+    }]
+}, {
+        "chicken-fillet": [{
+            "rice": [{
+                "quantity": 200,
+                "measurement": "(g)grams"
+            }, {
+            "chicken-fillet": [{
+                "quantity": 100,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "gravy-sauce": [{
+                "quantity": 0.5,
+                "measurement": "cup"
+            }]
+            }, {
+            "mixed-veggies": [{
+                "quantity": 30,
+                "measurement": "(g)grams"
+            }]
+            }]
+        }]
+
+}]
+},{
+    "a-la-carte": [{
+        "hungarian-sausage": [{
+            "hungarian": [{
+                "quantity": 3,
+                "measurement": "piece/s"
+            }, {
+            "gravy": [{
+                "quantity": 0.75,
+                "measurement": "cup"
+            }]
+            }, {
+            "mixed-veggies": [{
+                "quantity": 30,
+                "measurement": "(g)grams"
+            }]
+            }]
+    }]
+    
+}, {
+        "chicken-filler": [{
+            "chicken-filler": [{
+                "quantity": 200,
+                "measurement": "(g)grams"
+            }, {
+            "gravy": [{
+                "quantity": 0.75,
+                "measurement": "cup"
+            }]
+            }, {
+            "mixed-veggies": [{
+                "quantity": 30,
+                "measurement": "(g)grams"
+            }]
+            }]
+        
+    }]
+}, {
+        "bagnet-sisig": [{
+            "bagnet-sisig": [{
+                "quantity": 50,
+                "measurement": "(g)grams"
+            }, {
+            "onion": [{
+                "quantity": 70,
+                "measurement": "(g)grams"
+            }]
+            }, {
+            "sili-green": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "sili-labuyo": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "mixed-mayo": [{
+                "quantity": 2,
+                "measurement": "(tbsp)tablespoon"
+            }]
+            },{
+            "calamansi": [{
+                "quantity": 1,
+                "measurement": "piece/s"
+            }]
+            }]
+        }]
+
+}]
+},{
+    "wings-platter": [{
+        "garlic-wings": [{
+            "wings": [{
+                "quantity": 6,
+                "measurement": "piece/s"
+            }, {
+            "garlic-with-oil": [{
+                "quantity": 2,
+                "measurement": "(tbsp)tablespoon"
+            }]
+            }]
+    }]
+    
+}, {
+        "spicy-wings": [{
+            "wings": [{
+                "quantity": 6,
+                "measurement": "piece/s"
+            }, {
+            "sweet-and-spicy-sauce": [{
+                "quantity": 0.5,
+                "measurement": "cup"
+            }]
+            }, {
+            "sili-labuyo": [{
+                "quantity": 2,
+                "measurement": "piece/s"
+            }]
+            },{
+            "sili-green": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "onion": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            },{
+            "bellpepper": [{
+                "quantity": 5,
+                "measurement": "(g)grams"
+            }]
+            }]
+        
+    }]
+}, {
+    "butter-wings": [{
+        "wings": [{
+            "quantity": 6,
+            "measurement": "piece/s"
+        }, {
+        "butter": [{
+            "quantity": 2,
+            "measurement": "(tbsp)tablespoon"
+        }]
+        }]
+    
+}]
+
+}]
+}]

@@ -33,7 +33,7 @@ export default {
                 // Light Colors
                 primary_light: "rgba(255,255,255,0.95)",
                 secondary_light: "rgba(255,255,255,0.85)",
-                secondary_light: "rgba(255,255,255,0.70)",
+                tertiary_light: "rgba(255,255,255,0.70)",
 
                 
             },
